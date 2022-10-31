@@ -30,7 +30,7 @@ public class LoginTest extends TestBase {
         driver.findElement(By.xpath(OR.getProperty("continueBtn"))).click();
         Assert.assertTrue(isElementPresent(By.xpath(OR.getProperty("continueBtn"))),"cannot open Registration page");
         driver.findElement(By.xpath(OR.getProperty("firsNameField"))).sendKeys(firstName);
-        driver.findElement(By.xpath(OR.getProperty("lastNameFiel"))).sendKeys(lastName);
+        driver.findElement(By.xpath(OR.getProperty("lastNameField"))).sendKeys(lastName);
 
 
 
