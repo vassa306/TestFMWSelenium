@@ -23,7 +23,7 @@ public class CustomListeners implements ITestListener {
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        System.out.println(result.getTestName() + " has been completed successfuly");
+        System.out.println(result.getName() + " has been completed successfuly");
     }
 
     @Override
